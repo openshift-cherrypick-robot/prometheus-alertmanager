@@ -27,7 +27,7 @@ spec:
   - name: image-expires-after
     value: 5d
   - name: prefetch-input
-    value: '{"type": "npm", "path": "."}'
+    value: '{"type": "npm", "path": "ui/react-app"}'
   - name: dockerfile
     value: Containerfile.operator
   - name: path-context
